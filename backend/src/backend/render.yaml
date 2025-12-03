@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: cryptocard-backend
-    env: node
-    region: frankfurt
-    plan: free
-    buildCommand: "cd backend && npm install"
-    startCommand: "cd backend && npm start"
-    autoDeploy: true
