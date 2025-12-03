@@ -1,0 +1,13 @@
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:#f6f8fb; color:#111; margin:0; }
+.container{max-width:1000px;margin:24px auto;padding:20px;background:#fff;border-radius:8px;box-shadow:0 6px 18px rgba(22,27,38,0.06);}
+.header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+.tokenBox{width:100%;display:flex;gap:8px;}
+.btn{background:#1f6feb;color:#fff;padding:8px 12px;border-radius:6px;border:0;cursor:pointer;}
+.smallBtn{padding:6px 8px;font-size:13px;}
+.card{border:1px solid #eee;padding:12px;border-radius:6px;margin-bottom:8px;}
+.row{display:flex;gap:12px;align-items:center;}
+.field{margin-bottom:8px;}
+label{font-weight:600;font-size:13px}
+textarea,input{width:100%;padding:8px;border-radius:6px;border:1px solid #ddd}
+.flex{display:flex;gap:8px;align-items:center}
+.right{margin-left:auto}
